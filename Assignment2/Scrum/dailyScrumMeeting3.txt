@@ -1,0 +1,41 @@
+# Fill in, commit and push each day.
+# Group Member: Dean Wedgbury
+Nov 2, 2016
+	Yesterday : N/A
+	Today     : N/A
+	Obstacles : N/A
+	
+Nov 3, 2016
+	Yesterday : N/A
+	Today     : N/A
+	Obstacles : N/A
+
+Nov 4, 2016
+	Yesterday : N/A
+	Today     : Accessed assignment repo.
+	Obstacles :
+
+Nov 5, 2016
+	Yesterday : acquired assignment repo
+	Today     : added member details
+	Obstacles : git
+
+Nov 6, 2016
+	Yesterday : added member details
+	Today     : worked on rectangle feedback
+	Obstacles : many git problems
+	
+Nov 7, 2016
+	Yesterday : rectangle feedback
+	Today     : finished rectangle feedback
+	Obstacles : figuring out proper algorithms
+	
+Nov 8, 2016
+	Yesterday : finished rectangle feedback
+	Today     : finished square feedback, draw line, draw line feedback
+	Obstacles : figuring out algorithms
+	
+Nov 9, 2016
+	Yesterday : completed square feedback, draw line and draw line feedback
+	Today     : finished thickness selector
+	Obstacles : learning JSliders

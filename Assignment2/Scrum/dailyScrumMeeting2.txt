@@ -1,0 +1,56 @@
+# Fill in, commit and push each day.
+# Group Member: David Pham
+Nov 2, 2016
+	Yesterday : N/A
+	Today     : N/A
+	Obstacles : N/A
+	
+Nov 3, 2016
+	Yesterday : N/A
+	Today     : N/A
+	Obstacles : N/A
+
+Nov 4, 2016
+	Yesterday : N/A
+	Today     : N/A
+	Obstacles :
+
+Nov 5, 2016
+	Yesterday : N/A
+	Today     : 
+		Meet with group members and assign Userstories.
+		Added Member details
+	Obstacles : 
+		Working with GIT and how to work with branches
+
+Nov 6, 2016
+	Yesterday :
+		Met with group members
+	Today     : 
+		Completed DrawRectangle Class
+	Obstacles : 
+		Git problems
+	
+Nov 7, 2016
+	Yesterday : 
+		Finished DrawRectangles
+	Today     : 
+		Finished replacing words with icons
+	Obstacles : 
+		More merging problems
+	
+Nov 8, 2016
+	Yesterday :	
+		BugFix for icons
+	Today     : 
+		Fixing merging and error handling with branches
+	Obstacles :	
+		BRANCHES AND MERGING
+	
+Nov 9, 2016
+	Yesterday : 
+		Error handling
+	Today     : 
+		Completed DrawPolyline and DrawSquiggle
+	Obstacles : 
+		Architecture and revising code

@@ -1,0 +1,17 @@
+# Please leave your team members contact information here
+
+Member 1:
+Name: Roman Huts
+Email: roman.huts@mail.utoronto.ca
+
+Member 2:
+Name: David Pham
+Email: dauid.pham@mail.utoronto.ca
+
+Member 3:
+Name: Dean Wedgbury
+Email: dean.wedgbury@mail.utoronto.ca
+
+Member 4:
+Name: Shahmir Durrani
+Email: shahmir.durrani@mail.utoronto.ca

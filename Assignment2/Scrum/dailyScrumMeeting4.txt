@@ -1,0 +1,76 @@
+# Fill in, commit and push each day.
+# Group Member: Shahmir Durrani
+Nov 2, 2016
+	Yesterday :
+	Today     :Assignment not yet posted. 
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday :Assignment not yet posted. 
+	Today     :Assignment not yet posted. 
+	Obstacles :
+
+Nov 4, 2016
+	Yesterday :Assignment not yet posted. 
+	Today     :Read Over Assignment
+	Obstacles :
+
+Nov 5, 2016
+	Yesterday :Read OverAssignment
+	Today     :Looked at forming a group, and understanding assignment better.
+	Obstacles :
+
+Nov 6, 2016
+	Yesterday :Joined a Group and read assignment.
+	Today     :Had a meeting with the group and tried to figure GIT out.
+	Obstacles :Learning how to use GIT, Merge and branches.
+	
+Nov 7, 2016
+	Yesterday :Had meeting and did external research to learn more about GIT
+	Today     :Make sure DrawCircle is complete, then work on fixing Bug Circle Not working.
+	Obstacles : Finding the issue in Circle, and then developing an appropriate solution
+	
+Nov 8, 2016
+	Yesterday :Made Sure DrawCircle works correctly
+	Today     :Worked on DrawSquare and DrawSquare Feedback.
+	Obstacles :Developing an algorithm that draws as square as needed.
+	
+Nov 9, 2016
+	Yesterday : Got Square and Circle working
+	Today     :Added Javadocs and comments to code, and tried working on making "New" button work
+	Obstacles : The New button needs to reset the canvas.
+	
+Nov 10, 2016
+	Yesterday :Submitted Assignement
+	Today     : Didn't do anything
+	Obstacles :
+	
+Nov 11, 2016
+	Yesterday : Didn't do anything
+	Today     :Didn't do anyhthing.
+	Obstacles : 
+	
+Nov 12, 2016
+	Yesterday : Didn't do anything
+	Today     : Looked over the next sprint, and ways to get it finished.
+	Obstacles :  Studying architectures and their implementations.
+	
+Nov 13, 2016
+	Yesterday : Looked over the next sprint, and ways to get it finished.
+	Today     : Communicate ideas with team, and scheduled meeting times for remainder of the week.
+	Obstacles : Agreeing on which architecture works best for each class.
+	
+Nov 14, 2016
+	Yesterday : Got meeting dates and ideas consolidated
+	Today     : Met up as a team, and worked on implementing a factory architecture for Shapes.
+	Obstacles : Getting each shape to draw itself.
+	
+Nov 15, 2016
+	Yesterday : Started to change around the architecture of the programs to make program more efficient.
+	Today     : Redesigned the way action listeners are handled, namely started to complete bug 2.3
+	Obstacles : The New button needs to reset the canvas.
+	
+Nov 16, 2016
+	Yesterday : Changed the architecture of ShapeManipulations to simplify strategies
+	Today     :Added Javadocs and comments to code, and implemented the specific shape strategies, to ensure program works.
+	Obstacles : Getting Feedback for polyline to work.

@@ -1,0 +1,378 @@
+# Copy User Stories from the ProductBacklog 
+# to the appropriate Sprint below, after the 
+# Sprint Planning Meeting.
+
+# Sprint 1 November 3, 2016
+# Sprint 1 Backlog UserStories go below
+
+--------------------------------------------------------------------------
+TYPE     : USER STORY 1
+NAME     : Draw Circle
+OWNER    : Shahmir 
+PRIORITY : 1
+ESTIMATE : 1
+AS A     : user
+I WANT   : To click the center of the circle, drag, and release to specify
+           a circle to be drawn in the current style.
+SO THAT  : I can add circles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 2
+NAME     : Draw Circle Feedback
+OWNER    : Shahmir Durrani
+PRIORITY : 1
+ESTIMATE : 1
+AS A     : user
+I WANT   : As a user is specifying a Circle, during the drag, a 'current'
+           circle should be on display. As the user drags, the 'current'
+           circle changes in real time so that a circle is drawn with
+           centre at users initial circle click, with radius out to
+           the current dragged mouse position.
+SO THAT  : I can see the circle I am about to build on release of the mouse
+           button.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 3
+NAME     : Draw Rectangle
+OWNER    : Dean Wedgbury
+PRIORITY : High
+ESTIMATE : 2 hours
+AS A     : user
+I WANT   : To click on one corner of a rectangle, drag, and release to 
+		   specify two corners of a rectangle to be drawn in the current style.
+SO THAT  : I can add rectangles to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 4
+NAME     : Draw Rectangle Feedback
+OWNER    : Dean Wedgbury
+PRIORITY : High
+ESTIMATE : 3 hours
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the rectangle in mid construction.
+SO THAT  : I can see the rectangle I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 5
+NAME     : Color selector
+OWNER    : Roman Huts
+PRIORITY : Medium
+ESTIMATE : 4
+AS A     : user
+I WANT   : To be able to select the current drawing color, to be applied
+           to subsequent shapes. Example: 
+           		selects color red 
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select color green
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two red circles and a red rectangle as well as
+           	two green rectangles and a green squiggle
+SO THAT  : I can change the color I am drawing with.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 7
+NAME     : Line thickness selector
+OWNER    : Dean Wedgbury
+PRIORITY : Medium
+ESTIMATE : 3 hours
+AS A     : user
+I WANT   : To be able to select the current line thickness, to be applied
+           to subsequent shapes. Example:
+           		select fill style outline 
+           		selects line thickness 1
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select line thickness 9
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two thinly outlined circles and a thinly outlined 
+           	rectangle as well as two thickly outlined rectangles and a thick squiggle
+SO THAT  : the user has choice for the shapes they draw
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 8
+NAME     : Draw Line
+OWNER    : Dean Wedgbury
+PRIORITY : High
+ESTIMATE : 1 hour
+AS A     : user
+I WANT   : Draw lines on the panel by clicking for a starting point, then clicking again for an ending point
+SO THAT  : I can see the lines on the panel
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 9
+NAME     : Draw Line Feedback
+OWNER    : Dean Wedgbury
+PRIORITY : High
+ESTIMATE : 2 hour
+AS A     : user
+I WANT   : to see the line I'm about to draw on the screen by moving my mouse about the starting point
+SO THAT  : I can see the line I am about to draw
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 10
+NAME     : Draw Squiggle
+OWNER    : David Pham
+PRIORITY : High
+ESTIMATE : 2 hour
+AS A     : user
+I WANT   : to be able to draw freely 
+SO THAT  : I can draw where ever and when ever
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 11
+NAME     : Draw Polyline
+OWNER    : David Pham
+PRIORITY : High
+ESTIMATE : 2 hour
+AS A     : user
+I WANT   : to click points and create lines connecting each previous point
+SO THAT  : draw linear shapes precisely
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 12
+NAME     : Draw Square
+OWNER    : Shahmir and Dean
+PRIORITY :1
+ESTIMATE : 1
+AS A     : user
+I WANT   : To click on one corner of a rSquare, drag, and release to 
+		   specify the width of the square to be drawn in the current style.
+SO THAT  : I can add squares to my canvas
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 13
+NAME     : Draw Square Feedback
+OWNER    : Shahmir And Dean
+PRIORITY :2
+ESTIMATE : 1
+AS A     : user
+I WANT   : Similarly to Draw Circle Feedback, display the square in mid construction.
+SO THAT  : I can see the square I am about to build on release of the mouse button.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 1
+NAME     : Icons instead of text for drawing mode selection
+OWNER    : David Pham
+PRIORITY : Low
+ESTIMATE : 1 Hour
+ISSUE    : Would be nice to have icons instead of "Circle", "Rectangle", ...
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2
+NAME     : Drawing selection mode not indicated
+OWNER    : Roman Huts
+PRIORITY : Low
+ESTIMATE : 1
+ISSUE    : Currently ,you can't tell which mode "Circle", "Rectangle", ...
+           is currently selected. Is JButton correct, is there a way
+           to highlight the currently selected mode?
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 5
+NAME     : Squiggle is broken
+OWNER    : David Pham
+PRIORITY : High
+ESTIMATE : 3 Hours
+ISSUE    : Squiggles are connected to each other by a straight line. Each drag
+		   of the mouse should be a separate squiggle. Possibly
+           the issue is with the representation of the squiggles in the Model.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 6
+NAME     : Circle drawing is broken
+OWNER    : Shahmir Durrani
+PRIORITY : 2
+ESTIMATE : 1
+ISSUE    : The first click should specify the center of the circle, with
+           a drag for the radius. This is not the case in the current
+           implementation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 7
+NAME     : Selected Color doesn't apply to rectangle mode
+OWNER    : Roman Huts
+PRIORITY : Low
+ESTIMATE : 1
+ISSUE    : Currently, your chosen color doesn't affect the color of any
+		   rectangles being drawn.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 8
+NAME     : Selected Color doesn't apply to square mode
+OWNER    : Roman Huts
+PRIORITY : Low
+ESTIMATE : 1
+ISSUE    : Currently, your chosen color doesn't affect the color of any
+		   squares being drawn.
+--------------------------------------------------------------------------
+
+# Sprint 2 November 9, 2016
+# Sprint 2 Backlog UserStories go below
+
+
+--------------------------------------------------------------------------
+TYPE     : BUG 2.2
+NAME     : Architecture for handling shape modifiers can be improved 
+OWNER    : Roman Huts, Dean Wedgebury, David Pham, Shahmir Durrani
+PRIORITY : High
+ESTIMATE :1 
+ISSUE    : The architecture can be improved if we implement the Command Design 
+Pattern to handle changes to the graphics contex such as changing drawing 
+color, stroke width etc. You can accomplished this by wrapping the changes
+to the graphics context in a DrawingCommand. This way these changes can be
+added to the Bug 2.1 DrawingCommand list. That is, these new types of 
+DrawingCommands appear on PaintPanel's list right along side 
+the Shape type DrawingCommands.
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+TYPE     : BUG 2.1
+NAME     : Architecture for drawing shapes can be improved
+OWNER    :  Roman Huts, Dean Wedgebury, David Pham, Shahmir Durrani
+PRIORITY : High
+ESTIMATE : 1
+ISSUE    : The architecture can be improved if we implement the Command Design 
+Pattern to draw shapes as follows:
+
+The PaintModel should use the command design pattern. 
+That is, each shape knows how to draw itself, so there is a single list of 
+DrawingCommands maintained by the PaintModel and used by the PaintPanel.
+paintComponent simply asks the PaintModel to ask command to execute(g2d).
+The simplest way to make this happen is to make each shape implement the 
+DrawingCommand interface which requires execute(g2d) to be implemented.
+Well sort of.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 4
+NAME     : Architecture behind Model is poor
+OWNER    :  Roman Huts, Dean Wedgebury, David Pham, Shahmir Durrani
+PRIORITY : High
+ESTIMATE : 1
+ISSUE    : Having a list of different types of drawable things in the
+           model is cumbersome. In fact, it is currently incorrect, with
+           Squiggle's not drawing properly. Need to re-architect the Model
+           so that it is more flexible, and easier to work with.
+           Consider some design patterns, or change of responsibility
+           here.
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+TYPE     : BUG 2.3
+NAME     : Architecture behind choosing drawing mode is poor
+OWNER    :  Roman Huts, Dean Wedgebury, David Pham, Shahmir Durrani
+PRIORITY : High
+ESTIMATE : 1 
+ISSUE    : A better architecture behind selecting a drawing mode can be created 
+by implementing the Factory Design Pattern as follows:
+
+The factory design pattern should be used by the paint buttons. 
+The factory is responsible for creating different ShapeManipulatorStrategy 
+instances (see BUG 2.4). That is, when a button is pressed, the appropriate 
+ShapeManipulatorStrategy is created and installed in the PaintPanel. 
+Note that you can associate text with a button, even if you 
+display an ImageIcon. The string attached to the button causes the right choice 
+of object creation.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.4
+NAME     : Architecture behind creating shape instances is poor
+OWNER    :  Roman Huts, Dean Wedgebury, David Pham, Shahmir Durrani
+PRIORITY : High
+ESTIMATE : 1
+ISSUE    : A better architecture for creating shape instances so that it is 
+more flexible, and easier to work with can be created using the Strategy Design 
+pattern as follows:
+
+Create class/abstract class/interface  ShapeManipulatorStrategy as well 
+as subclasses/implementators for each type of Shape. Call these the
+concrete ShapeNamipulatorStrategies
+
+The concrete ShapeManipulatorStrategies are responsible for 
+
+1. Creating instances of Shape and putting them on top of 
+   the PaintModel command stack.
+
+2. Understanding how mouse events modify the shape at the top of the 
+   PaintModel command stack.
+
+3. Calling the PaintPanel repaint at appropriate times.
+
+This strategy can be put in place either by having PaintPanel's mouse 
+events forwarded through PaintPanel into the current strategy, or by 
+simply switching the PaintPanel's listeners as appropriate.
+
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.5
+NAME     : Move non src files from src directory
+OWNER    : Roman Huts
+PRIORITY : 2
+ESTIMATE : 1
+ISSUE    : ANoteOnGit.txt members.txt scrum and other non-src files/folders
+should appear in repo_[GROUP]/Assignment2, not in 
+repo_[GROUP]/Assignment2/src causing copies to be sent to
+repo_[GROUP]/Assignment2/bin/ and subsequent issues
+with git pulling and merging.
+RESOLVE  : Move above files and directories, add to index, commit
+and push.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : BUG 2.6
+NAME     : Git repo has incorrect .gitignore
+OWNER    : Roman Huts
+PRIORITY : 1
+ESTIMATE : 1
+ISSUE    : Modifications to src files leads to changes to .class files
+in repo_[GROUP]/Assignment2/bin/. These changes lead to, if commited,
+potential conflicts. To fix this, on the master branch, add a .gitignore to 
+repo_[GROUP]/Assignment2/ or repo_[GROUP]/. The contents of .gitignore
+could be, for example,
+
+/bin/
+
+You will need to add the .gitignore to index, commit and push it.
+Unfortunately, this is not the end of the issue though, once git starts
+tracking a file, it continues tracking it. To fix this, delete the .class
+files (and any other files of interest) from the bin directory. Add this
+change to index, commit and push. 
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+TYPE     : USER STORY 6
+NAME     : Fill style selector
+OWNER    : Shahmir
+PRIORITY : Moderate
+ESTIMATE : 1
+AS A     : user
+I WANT   : To be able to select the current drawing style (filled or outline), to be applied
+           to subsequent shapes. Example: 
+           		selects fill style solid
+           		mode circle
+           		draw a circle
+           		draw a circle
+           		mode rectangle
+           		draw a rectangle
+           		select fill style outline
+           		draw a rectangle
+           		draw a rectangle
+           		select mode squiggle
+           		draw a squiggle
+           	results in two solid circles and a solid rectangle as well as
+           	two outlined rectangles and a squiggle
+SO THAT  : 
+--------------------------------------------------------------------------
+

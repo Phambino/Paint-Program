@@ -1,0 +1,82 @@
+# Fill in, commit and push each day.
+# Group Member: Roman Huts (Scrum Master)
+Nov 2, 2016
+	Yesterday :
+	Today     : Assignment not yet posted. Read about git comparing workflows.
+	Obstacles :
+	
+Nov 3, 2016
+	Yesterday : Assignment not yet posted. Read about git comparing workflows.
+	Today     : Assignment not yet posted. Read about git comparing workflows.
+	Obstacles :
+
+Nov 4, 2016
+	Yesterday : Assignment not yet posted. Read about git comparing workflows.
+	Today     : Look over and try to understand assignment and how to collaborate on it.
+	Obstacles :
+
+Nov 5, 2016
+	Yesterday : Looked over and tried to understand assignment and how to collaborate on it.
+	Today     : Look over and try to understand assignment and how to collaborate on it.
+	Obstacles :
+
+Nov 6, 2016
+	Yesterday : Looked over and tried to understand assignment and how to collaborate on it.
+	Today     : Look over and try to understand assignment and how to collaborate on it.
+	Obstacles :
+	
+Nov 7, 2016
+	Yesterday : Looked over and tried to understand assignment and how to collaborate on it.
+	Today     : Complete UserStoryDrawCircleFeedback. Work on UserStoryColorSelector.
+	Obstacles :
+	
+Nov 8, 2016
+	Yesterday : Completed UserStoryDrawCircleFeedback. Worked on UserStoryColorSelector.
+	
+	Today     : Complete UserStoryColorSelector. Complete BugColorSelector for rectangles.
+				Complete BugColorSelector for squares.
+	
+	Obstacles : Changing the color of a drawn object without changing the color of all
+				other objects was overcome by making all drawn object inherit from
+				GraphicObject, which makes each of the drawn objects have a unique color.
+	
+Nov 9, 2016
+	Yesterday : Complete UserStoryColorSelector. Complete BugColorSelector for rectangles.
+				Complete BugColorSelector for squares.
+	Today     : Complete BugIndicateDrawMode. JavaDoc.
+	Obstacles :
+	
+Nov 10, 2016
+	Yesterday : Completed BugIndicateDrawMode.
+	Today     : Nothing.
+	Obstacles :
+		
+Nov 11, 2016
+	Yesterday : Nothing.
+	Today     : Nothing.
+	Obstacles :
+		
+Nov 12, 2016
+	Yesterday : Nothing.
+	Today     : Look over assignment.
+	Obstacles :
+		
+Nov 13, 2016
+	Yesterday : Looked over assignment.
+	Today     : Discuss ideas with team and decide on meeting dates.
+	Obstacles :
+		
+Nov 14, 2016
+	Yesterday : Discussed ideas with team and decided on meeting dates.
+	Today     : Collarborate on ShapeFacotry and architecture. Merge branches.
+	Obstacles :
+		
+Nov 15, 2016
+	Yesterday : Collarborated on ShapeFacotry and architecture. Merged branches.
+	Today     : Collaborate on ShapeManipulatorStrategy. Merge branches.
+	Obstacles :
+		
+Nov 16, 2016
+	Yesterday : Collaborated on ShapeManipulatorStrategy. Merged branches.
+	Today     : Resolve Bug2.5. Update Scrum. Merge branches.
+	Obstacles :
